@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="primaryGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3333ff"/>
+      <stop offset="100%" stop-color="#1a1aff"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4444ff"/>
+      <stop offset="100%" stop-color="#6666ff"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Background circle -->
+  <circle cx="32" cy="32" r="30" fill="url(#primaryGradient)" stroke="#2525cc" stroke-width="2"/>
+  
+  <!-- Academic cap / graduation symbol -->
+  <path d="M16 24 L32 18 L48 24 L48 28 L32 22 L16 28 Z" fill="white" opacity="0.9"/>
+  <path d="M20 30 L20 36 C20 38 24 42 32 42 C40 42 44 38 44 36 L44 30" fill="none" stroke="white" stroke-width="2" opacity="0.8"/>
+  
+  <!-- Data visualization elements (dots and connections) -->
+  <circle cx="22" cy="46" r="2" fill="white" opacity="0.7"/>
+  <circle cx="32" cy="44" r="2" fill="white" opacity="0.7"/>
+  <circle cx="42" cy="46" r="2" fill="white" opacity="0.7"/>
+  <line x1="22" y1="46" x2="32" y2="44" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <line x1="32" y1="44" x2="42" y2="46" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  
+  <!-- IoT/connectivity symbol -->
+  <circle cx="18" cy="18" r="3" fill="none" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="46" cy="18" r="3" fill="none" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="18" cy="50" r="3" fill="none" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  <circle cx="46" cy="50" r="3" fill="none" stroke="white" stroke-width="1.5" opacity="0.8"/>
+  
+  <!-- Central innovation symbol -->
+  <polygon points="32,8 36,16 28,16" fill="url(#accentGradient)" opacity="0.9"/>
+</svg>
