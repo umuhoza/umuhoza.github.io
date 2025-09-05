@@ -60,6 +60,18 @@ const AboutSection: React.FC = () => {
                 </p>
               </div>
 
+              {/* Visiting Scholar */}
+              <div className="absolute top-[calc(66%-12px)] -left-[13px] w-6 h-6 rounded-full bg-primary border-4 border-background"></div>
+              <div className="mb-12">
+                <h3 className="text-xl font-semibold text-textPrimary">
+                  Visiting Scholar
+                </h3>
+                <p className="text-textSecondary">
+                  École des Mines de Nantes, France
+                </p>
+                <p className="text-sm text-textSecondary opacity-70">2017</p>
+              </div>
+
               {/* Masters */}
               <div className="absolute top-[calc(33%-12px)] -left-[13px] w-6 h-6 rounded-full bg-primary border-4 border-background"></div>
               <div className="mb-12">
@@ -72,18 +84,6 @@ const AboutSection: React.FC = () => {
                 <p className="text-sm text-textSecondary opacity-70">
                   2011 - 2013
                 </p>
-              </div>
-
-              {/* Visiting Scholar */}
-              <div className="absolute top-[calc(66%-12px)] -left-[13px] w-6 h-6 rounded-full bg-primary border-4 border-background"></div>
-              <div className="mb-12">
-                <h3 className="text-xl font-semibold text-textPrimary">
-                  Visiting Scholar
-                </h3>
-                <p className="text-textSecondary">
-                  École des Mines de Nantes, France
-                </p>
-                <p className="text-sm text-textSecondary opacity-70">2017</p>
               </div>
 
               {/* Bachelor */}
