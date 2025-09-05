@@ -36,22 +36,31 @@ const HeroSection: React.FC = () => {
               <span className="text-gray-400">I am</span> Eric Umuhoza PhD
             </h1>
 
+            {/* Position and Institution */}
+            <div className="mb-6">
+              <p className="text-lg text-gray-300 font-medium mb-1">
+                Assistant Teaching Professor
+              </p>
+              <p className="text-base text-gray-400 font-normal">
+                Carnegie Mellon University-Africa
+              </p>
+            </div>
+
+            <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-xl mx-auto lg:mx-0 italic">
+              ...dedicated to advancing research in AI, data analytics, and
+              software engineering while fostering community development through
+              technology and education.
+            </p>
+
             {/* Typewriter section */}
             <div className="h-20 text-xl sm:text-2xl md:text-3xl font-semibold text-[#3333ff] mb-6 flex flex-col items-center lg:items-start justify-center">
               <span className="text-gray-300 text-lg sm:text-xl md:text-2xl mb-1">
                 My research interests includes:
               </span>
-              <div className="inline-block overflow-hidden whitespace-pre-line border-r-[.15em] border-[#3333ff] animate-pulse text-center lg:text-left leading-tight">
+              <div className="inline-block overflow-hidden whitespace-pre-line border-r-[.15em] border-[#3333ff] text-center lg:text-left leading-tight">
                 {text}
               </div>
             </div>
-
-            <p className="text-lg md:text-xl text-gray-300 mb-8 max-w-xl mx-auto lg:mx-0">
-              Assistant Teaching Professor at Carnegie Mellon University-Africa,
-              dedicated to advancing research in AI, data analytics, and
-              software engineering while fostering community development through
-              technology and education.
-            </p>
 
             {/* Action buttons */}
             <div className="flex justify-center lg:justify-start space-x-4">
