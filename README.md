@@ -1,14 +1,18 @@
-# Computer Science Professor Bio Website
+# Eric Umuhoza - Personal Website
 
-A modern, responsive personal bio website for a computer science research professor built with React, TypeScript, and Tailwind CSS.
+This is the personal website for **Eric Umuhoza**, a Computer Science Research Professor. The website showcases academic research, publications, teaching experience, and professional background in an accessible and modern web interface.
+
+Built with React, TypeScript, and Tailwind CSS, this site serves as a digital portfolio and academic presence for connecting with students, collaborators, and the broader research community.
 
 ## Features
 
-- Clean, professional design
-- Responsive layout
-- Research publications showcase
-- Contact information
-- Academic background
+- **Professional Bio**: Comprehensive overview of academic background and research interests
+- **Research Showcase**: Detailed presentation of current and past research projects
+- **Publications**: Curated list of academic publications and scholarly work
+- **Teaching Portfolio**: Information about courses taught and teaching philosophy
+- **Responsive Design**: Fully responsive layout optimized for all devices
+- **Accessible**: Built with accessibility best practices and WCAG standards
+- **Modern UI/UX**: Clean, professional design with subtle interactions and smooth scrolling
 
 ## Tech Stack
 
@@ -48,19 +52,32 @@ A modern, responsive personal bio website for a computer science research profes
 - `npm run preview` - Preview production build
 - `npm run lint` - Run ESLint
 
+## About This Project
+
+This is the official personal website for Eric Umuhoza, designed to provide a comprehensive overview of academic work, research contributions, and professional activities. The site aims to:
+
+- Showcase research expertise and academic achievements
+- Facilitate connections with students, colleagues, and collaborators
+- Share knowledge through publications and teaching materials
+- Provide an accessible platform for academic communication
+
 ## Project Structure
 
 ```
 src/
-  ├── components/     # Reusable UI components
-  ├── pages/         # Page components
-  ├── assets/        # Static assets
-  └── styles/        # CSS files
+  ├── components/     # Reusable UI components (Header, Hero, About, Research, etc.)
+  ├── data/          # JSON data for publications and other content
+  ├── hooks/         # Custom React hooks
+  └── assets/        # Static assets and images
 ```
 
 ## Contributing
 
-This is a personal website project. Feel free to use it as a template for your own academic bio website.
+This is a personal website project. If you find any issues or have suggestions for improvement, please feel free to reach out.
+
+## License
+
+© 2025 Eric Umuhoza. All rights reserved.
 
 ## Expanding the ESLint configuration
 
