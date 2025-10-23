@@ -3,6 +3,9 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      screens: {
+        'xs': '475px',
+      },
       fontFamily: {
         sans: ["Space Grotesk", "system-ui", "sans-serif"],
         serif: ["Space Grotesk", "Georgia", "Times New Roman", "serif"],
